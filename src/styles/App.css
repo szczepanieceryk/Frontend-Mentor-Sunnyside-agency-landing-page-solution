@@ -3,3 +3,371 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  text-align: center;
+  font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+h3 {
+  margin: 20px 0;
+  font-family: 'Barlow', Arial, Helvetica, sans-serif;
+}
+img {
+  width: 100%;
+  max-width: 750px;
+}
+
+/* top-navigation section */
+.top-navigation-wrapper{
+  width: 100%;
+  position: fixed;
+  justify-content: end;
+  display: flex;
+  background-color: #3dbefe;
+}
+.brand-logo{
+  margin:20px 200px 0 0;
+  font-weight: bold;
+  color: #fff;
+}
+.navigation{
+  top:-500px;
+  margin: 10vh 10vw;
+  padding: 40px 40px;
+  width: 80%;
+  position: fixed;
+  background-color: #fff;
+  transition: .2s linear;
+  z-index: 2;
+}
+.navigation.active{
+  top:0px;
+}
+.navigation ul{
+  margin: 0;
+  padding: 0;
+}
+.navigation li {
+  margin: 20px;
+  list-style: none;
+}
+.navigation a{
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(189, 182, 182);
+  transition: .7;
+}
+.navigation a:hover{
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  background-color: hsl(51, 100%, 49%);
+  color: #000;
+}
+.hamburger-icon {
+  margin: 20px;
+  cursor: pointer;
+}
+
+/* home-page header section */
+.home-page{
+  display: flex;
+  flex-wrap: wrap;
+}
+.header-section,.graphic-design-section,.photography-section{
+  min-height: 100vh;
+  color: #fff;
+  background-image: url(../images/mobile/image-header.jpg);
+  background-position: center ;
+  background-size: cover;
+}
+.header-section {
+  padding: 15vh 15px;
+  text-transform: uppercase;
+}
+.header-section h3{
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+.arrow-down{
+  margin-top: 60px;
+}
+
+/* about-us-section */
+.about-us-section{
+  justify-content: center; 
+  margin: 45px 25px;
+}
+.about-us-section span,.stand-out-section span{
+  color: hsl(232, 10%, 55%);
+}
+.lern-more{
+  margin: 20px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: black;
+}
+/* stand-out-section  */
+.stand-out-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.stand-out-section .content {
+  margin: 45px 25px;
+}
+.stand-out-section h3{
+margin-top:45px;
+} 
+
+/* graphic-design-section */
+.graphic-design-section,.photography-section{
+  padding-top: 70vh;
+  background-image: url(../images/mobile/image-graphic-design.jpg);
+  color: hsl(167, 40%, 24%);
+}
+
+/* photography-section */
+.photography-section{
+  background-image: url(../images/mobile/image-photography.jpg);
+  color: hsl(198, 62%, 26%);
+}
+.graphic-design-section span, .photography-section span {
+  padding: 0 20px;
+}
+
+/* clients-testimonials-section */
+.clients-testimonials-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 40px 30px;
+}
+.clients-testimonials-section h3{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+.clients-testimonials-section span{
+  margin: 15px;
+  display: block;
+}
+.clients-testimonials-section img{
+  margin-bottom: 20px;
+  max-width: 50px;
+  border-radius: 50%;
+}
+.single-testimonial{
+  margin-top: 50px;
+}
+.single-testimonial p {
+  font-weight: bold;
+}
+.single-testimonial p,.clients-testimonials-section h3, .single-testimonial .proffesion {
+color:hsl(232, 10%, 55%);
+}
+
+/* images-gallery-section */
+.images-gallery-section{
+  display: flex;
+  flex-wrap: wrap;
+}
+.images-gallery-section img {
+  flex-basis: 50%;
+}
+.images-gallery-section .desktop-image{
+  display: none;
+}
+
+/*footer-navigation-section */
+.footer-navigation-section{
+  padding: 50px 20px 30px;
+  background-color: hsl(168, 35%, 56%);
+  color:hsl(168, 67%, 19%);
+}
+.bottom-nav ul{
+  padding: 20px 20px;
+  display: flex;
+}
+.bottom-nav li {
+  flex-basis: 30%;
+  list-style: none;
+}
+.bottom-nav a {
+  text-decoration: none;
+  transition: .5s;
+  color:hsl(168, 62%, 24%);
+}
+.bottom-nav a:hover{
+  color: white;
+}
+.social-media-links{
+  padding: 20px 70px 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.social-media-links svg {
+  flex-basis: 10%;
+  cursor: pointer;
+  transition: .5s;
+}
+
+/* footer attributions */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media(min-width:1201px){
+
+/* top-navigation section */
+.hamburger-icon{
+  display: none;
+}
+.brand-logo{
+  font-size: 25px;
+  margin: 30px 50px;
+}
+.top-navigation-wrapper{
+  justify-content: start;
+}
+.navigation{
+  margin:0;
+  padding: 0px 50px;
+  top: 0px;
+  width: 100%;
+  position: fixed;
+  background-color:transparent; 
+}
+.navigation ul {
+  display: flex;
+  justify-content: end;
+}
+.navigation li{
+  margin: 30px 0;
+  padding-right: 20px;
+  flex-basis: 10%;
+}
+.navigation a {
+  font-weight: normal;
+  transition: .7s;
+  color: #fff;
+}
+.navigation a:hover{
+  padding: 15px 16px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: rgb(235, 228, 228,.3);
+}
+
+/* header-section  */
+  .header-section{
+    padding: 15vh 15px;
+    flex-basis: 100%;
+    flex-flow: row;
+    background-image: url(../images/desktop/image-header.jpg);
+  }
+
+  /* change html order of element for desktop */
+  #one{order:2;}
+  #two{order:1;}
+  #three{order:3;}
+  #four{order:4;}
+  #five{order:5;}
+  #six{order:6;}
+  #seven{order:7;}
+  #eight{order:8;}
+
+  /* egg-section and about-us-section */
+ .egg-section,.about-us-section{
+    flex-basis: 50%;
+  } 
+ .about-us-section{
+   margin: 0;
+   justify-content: left;
+ }
+ .about-us-section, .stand-out-section .content{
+   padding: 140px 120px;
+   text-align: left;
+ }
+ .lern-more {
+   margin: 20px 0;
+   max-width: 108px;
+   transition: .8;
+ }
+ .about-us-section .lern-more:hover{
+  color: #000;
+  border-bottom: 5px solid hsla(51, 100%, 49%, 0.3);
+}
+
+/* stand-out-section */
+  .stand-out-section{
+    margin-bottom: 0;
+  }
+  .stand-out-section img{
+    flex-basis: 50%;
+  }
+  .stand-out-section .content {
+    margin: 0;
+    flex-basis: 50%;
+  }
+  .stand-out-section .lern-more:hover{
+    color: #000;
+    border-bottom: 5px solid hsl(7, 99%, 70%,0.3);
+  }
+  
+  /* graphic-design-section and photography-section */
+  .graphic-design-section,.photography-section{
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    flex-basis: 50%;
+  }
+  .photography-section{
+    background-image: url(../images/desktop/image-photography.jpg);
+  }
+  .graphic-design-section span,.photography-section span{
+      padding:0px 50px; 
+ }
+
+  /* clients-testimonials-section */
+  .clients-testimonials-section{
+    margin: 50px 20px;
+  }
+  .clients-testimonials-section h3{
+    flex-basis: 100%;
+  }
+  .single-testimonial{
+    margin-right: 30px;
+    flex-basis: 25%;
+    justify-content: space-evenly;
+  }
+
+/* images-gallery-section  */
+  .images-gallery-section img {
+    flex-basis: 25%;
+  }
+  .images-gallery-section .mobile-image{
+    display: none;
+  }
+  .images-gallery-section .desktop-image{
+    display: block;
+  }
+
+/* footer-navigation-section */
+  .footer-navigation-section{
+   padding: 50px 450px;
+  }
+  .bottom-nav ul{
+    justify-content: space-around;
+  }
+  .bottom-nav li {
+    flex-basis: 5%;
+  }
+  .social-media-links{
+    justify-content: space-around;
+  }
+  .social-media-links svg {
+    flex-basis: 5%;
+  }
+}
