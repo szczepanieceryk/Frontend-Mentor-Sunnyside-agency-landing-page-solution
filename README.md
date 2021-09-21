@@ -26,8 +26,7 @@ Users should be able to:
 
 Live demo of a layout
 
-- Live Site URL: [Add live site URL here](https://szczepanieceryk.github.io/Frontend-Mentor-Sunnyside-agency-landing-page-solution/)
-
+- Live Site URL: [https://szczepanieceryk.github.io/Frontend-Mentor-Sunnyside-agency-landing-page-solution/]
 ## My process
 
 ### Built with
