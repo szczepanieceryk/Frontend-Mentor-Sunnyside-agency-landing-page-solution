@@ -31,10 +31,10 @@ img {
   color: #fff;
 }
 .navigation{
-  top:-500px;
   margin: 10vh 10vw;
   padding: 40px 40px;
   width: 80%;
+  top:-500px;
   position: fixed;
   background-color: #fff;
   transition: .2s linear;
@@ -219,6 +219,44 @@ color:hsl(232, 10%, 55%);
 .attribution a { color: hsl(228, 45%, 44%); }
 
 
+@media(min-width:481px){
+
+  /* top-navigation section */
+  .brand-logo{
+    margin:20px 580px 0 0;
+  }
+  /* home-page header section */
+  .header-section{
+    flex-basis: 100%;
+  }
+
+  /* egg-section,stand-out-section */
+  .egg-section,.stand-out-section{
+    flex-basis: 100%;
+  }
+  /* about-us-section, stand-out-section */
+  .about-us-section,.stand-out-section .content{
+    margin: 45px 100px;
+  }
+  /* graphic-design-section,photography-section */
+  .graphic-design-section,.photography-section{
+      max-height: 100vh;
+  }
+  /* clients-testimonials-section */
+  .single-testimonial p {
+   padding: 0 80px;
+  }
+  /*footer-navigation-section */
+  .footer-navigation-section{
+    padding: 50px 100px 50px;
+  }
+  .bottom-nav li {
+    flex-basis: 40%;
+    list-style: none;
+  }
+  
+}
+
 @media(min-width:1201px){
 
 /* top-navigation section */
@@ -337,6 +375,9 @@ color:hsl(232, 10%, 55%);
   .clients-testimonials-section h3{
     flex-basis: 100%;
   }
+  .single-testimonial p {
+    padding: 0 ;
+   }
   .single-testimonial{
     margin-right: 30px;
     flex-basis: 25%;
@@ -370,4 +411,36 @@ color:hsl(232, 10%, 55%);
   .social-media-links svg {
     flex-basis: 5%;
   }
+}
+
+@media(min-width:1400px){
+  .navigation li{
+    padding-right: 35px;
+    flex-basis: 8%;
+  }
+  .navigation a:hover{
+    padding: 15px 10px;
+  }
+  img{
+    max-width: 950px;
+  }
+ .about-us-section,.stand-out-section .content{
+    padding: 160px 120px 120px;
+  }
+}
+@media(min-width:1600px){
+
+  .egg-section,.about-us-section,.stand-out-section .content{
+    width: 860px;
+    width: 860px;
+  }
+  
+  /* footer-navigation-section */
+  .footer-navigation-section{
+    padding: 50px 600px;
+   }
+   .social-media-links{
+     padding: 20px 10px;
+   }
+ 
 }
