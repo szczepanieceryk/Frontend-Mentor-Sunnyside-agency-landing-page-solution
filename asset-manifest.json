@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/css/main.aa30ab63.chunk.css",
+    "main.js": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/js/main.7e55d621.chunk.js",
+    "main.js.map": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/js/main.7e55d621.chunk.js.map",
+    "runtime-main.js": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/js/runtime-main.e05f9cce.js",
+    "runtime-main.js.map": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/js/runtime-main.e05f9cce.js.map",
+    "static/js/2.59d7ae05.chunk.js": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/js/2.59d7ae05.chunk.js",
+    "static/js/2.59d7ae05.chunk.js.map": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/js/2.59d7ae05.chunk.js.map",
+    "index.html": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/index.html",
+    "static/css/main.aa30ab63.chunk.css.map": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/css/main.aa30ab63.chunk.css.map",
+    "static/js/2.59d7ae05.chunk.js.LICENSE.txt": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/js/2.59d7ae05.chunk.js.LICENSE.txt",
+    "static/media/image-gallery-cone.461ff421.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-gallery-cone.461ff421.jpg",
+    "static/media/image-gallery-cone.fb0906a7.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-gallery-cone.fb0906a7.jpg",
+    "static/media/image-gallery-milkbottles.df1d9d84.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-gallery-milkbottles.df1d9d84.jpg",
+    "static/media/image-gallery-orange.373d43f1.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-gallery-orange.373d43f1.jpg",
+    "static/media/image-gallery-orange.49f4212b.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-gallery-orange.49f4212b.jpg",
+    "static/media/image-gallery-sugar-cubes.fefc3841.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-gallery-sugar-cubes.fefc3841.jpg",
+    "static/media/image-gallery-sugarcubes.09b72f4f.jpg": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-gallery-sugarcubes.09b72f4f.jpg",
+    "static/media/App.css": "/Frontend-Mentor-Sunnyside-agency-landing-page-solution/static/media/image-photography.26df83b3.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e05f9cce.js",
+    "static/js/2.59d7ae05.chunk.js",
+    "static/css/main.aa30ab63.chunk.css",
+    "static/js/main.7e55d621.chunk.js"
+  ]
+}
